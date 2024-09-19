@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  pythonflaskvscode1:
+    image: pythonflaskvscode1
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5000:5000
